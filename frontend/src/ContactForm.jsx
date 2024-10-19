@@ -47,7 +47,6 @@ const ContactForm = ({selectedContact, closeModal}) => {
             alert(errordata.error)
             
         } else {
-            forceUpdate();
             closeModal();
         }
         
